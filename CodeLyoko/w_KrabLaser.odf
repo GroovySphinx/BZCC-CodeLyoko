@@ -1,0 +1,51 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = NULL //"50cal.bullet.fbx"
+
+xplGround = "xXANAlasgnd"
+xplVehicle = "xbulcar"
+xplBuilding = "xbulbld"
+
+renderCount = 1
+renderName = "w_KrabLaser.render"
+
+ammoCost = 2.5
+lifeSpan = 3.0 // 105m  135 GEC
+shotSpeed = 150.0 // 300.0
+
+damageValue(N) = 350 // none // 320
+damageValue(L) = 350 // light // 320
+damageValue(H) = 350 // heavy // 240
+
+damageValue(S) = 15 // standard // 300
+damageValue(D) = 8 // deflection // 160
+damageValue(A) = 16 // absorbtion // 320
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "w_KrabLaser.Tracer"
+renderName2 = "w_KrabLaser.Light"
+
+
+[Tracer]
+renderBase = "draw_tracer"
+textureBlend = "one one modulate"
+textureName = "Xlaser0.dds"
+startColor = "255 255 155 255"
+finishColor = "255 255 255 0"
+startRadius = 0.3 //0.09
+finishRadius = 0.3 //0.09
+tracerLength = 10.0 //5.0
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 15 0 100"
+finishColor = "255 0 0 0"
+lensFlare = false
+startRadius = 5.0 //25.0
+finishRadius = 10.0 //25.0
+animateTime = 1.0
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

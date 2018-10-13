@@ -1,0 +1,5 @@
+[GameObjectClass]
+classLabel = "xbfact"
+
+[FactoryClass]
+BaseSlot = 7

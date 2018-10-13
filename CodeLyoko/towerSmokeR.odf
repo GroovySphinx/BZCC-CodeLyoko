@@ -1,0 +1,25 @@
+[towerSmokeR]
+renderBase = "draw_emit"
+emitName = "towerSmokeR.Smoke"
+emitDelay = 0.05
+emitDelayVar = 0.05
+emitVelocity = "0.5 5.5 0.0"
+emitVariance = "0.0 0.0 0.0"
+emitInherit = "0.0 20.0 0.0"
+emitPosVariance = "09.0 25.0 .0"
+
+
+[Smoke]
+simulateBase = "sim_smoke"
+lifeTime = 7.5
+renderBase = "draw_twirl"
+textureName = "TowerSmoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 0 0 0"
+finishColor = "255 0 0 16"
+useTerrainColor = 0.0
+startRadius = 0.0
+finishRadius = 3.5
+animateTime = 7.5
+rotationRate = 2.0
+maxCount = -1

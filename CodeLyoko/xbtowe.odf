@@ -1,0 +1,58 @@
+[GameObjectClass]
+baseName = "xbtowe"
+geometryName = "xbtowe00.fbx"
+cockpitName = ""
+classLabel = "turret"
+powerCost = 0
+scrapCost = 50
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Tower"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+collisionRadius = 11.0
+armorClass = H
+AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 0
+
+/////// LIGHTS and EFFECTS /////////
+lightHard1 = "hp_light_1"
+lightName1 = "towerlight"
+
+turretCount = 0
+weaponMask = 00000
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+
+[CraftClass]
+rangeScan = 250
+periodScan = 1.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 200
+
+[TurretCraftClass]
+omegaTurret = 2.0
+detectRange = 210
+
+[Teleportation]
+teleportFrom = -13.0
+teleportTo = 3.0
+
+[Lod1]
+//geometryName = "ibgtowL1.fbx" ;geometry for lod1
+//distance = 150                   ;bsphere under 200 pixel => switch to lod1
+//dontShiftLOD = 1

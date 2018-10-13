@@ -1,0 +1,26 @@
+[Sparker]
+baseName = "sparker"
+simulateBase = "sim_smoke"
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "sparker.smoke"
+renderName2 = "sparker.trail"
+
+[smoke]
+renderBase = "draw_emit"
+emitName = "spark"
+emitDelay = 0.05
+emitVelocity = "0.0 1.0 0.0"
+emitVariance = "2.0 0.0 2.0"
+emitPosVariance = "1.5 1.5 1.5"
+
+[trail]
+renderBase = "draw_emit"
+emitName = "scatter"
+emitDelay = 0.05
+
+//emitVelocity = "2.0 3.0 1.0"
+emitVelocity = "6.0 6.0 4.0"
+
+//emitVarience = "1.5 2.0 0.5"
+emitVariance = "11.5 12.0 11.5"

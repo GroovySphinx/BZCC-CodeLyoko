@@ -1,0 +1,36 @@
+[GameObjectClass]
+classLabel = "xbtoweW"
+
+
+effectHard1 = "hp_emit_1"
+effectName1 = "towerSmokeR"
+//effectFlags1 = "447" //447 powered  479 unpowered
+
+effectHard2 = "hp_emit_2"
+effectName2 = "towerSmokeR"
+//effectFlags2 = "447" //447 powered  479 unpowered
+
+effectHard3 = "hp_emit_3"
+effectName3 = "towerSmokeR"
+//effectFlags3 = "447" //447 powered  479 unpowered
+
+effectHard4 = "hp_emit_4"
+effectName4 = "towerSmokeR"
+//effectFlags4 = "447" //447 powered  479 unpowered
+
+effectHard5 = "hp_emit_5"
+effectName5 = "towerSmokeR"
+//effectFlags5 = "447" //447 powered  479 unpowered
+
+effectHard6 = "hp_emit_6"
+effectName6 = "towerSmokeR"
+//effectFlags6 = "447" //447 powered  479 unpowered
+
+effectHard7 = "hp_emit_7"
+effectName7 = "towerSmokeR"
+//effectFlags7 = "447" //447 powered  479 unpowered
+
+effectHard8 = "hp_emit_8"
+effectName8 = "towerSmokeR"
+//effectFlags8 = "447" //447 powered  479 unpowered
+////////////////////////////////////
