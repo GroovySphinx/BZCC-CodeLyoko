@@ -1,0 +1,8 @@
+[submodule "assets"]
+	path = assets
+	url = https://github.com/GroovySphinx/BZCC-CodeLyoko.git
+	branch = assets-dev
+[submodule "baked"]
+	path = baked
+	url = https://github.com/GroovySphinx/BZCC-CodeLyoko.git
+	branch = baked-dev
