@@ -1,0 +1,12 @@
+{
+    "mods":[
+        {
+            "name":"CodeLyoko (Dev)",
+            "folder":"mod",
+            "image":"logo.png",
+            "workshopid":"codelyoko-dev",
+            "desc":"desc.txt",
+            "version":"v0.0.1-devel"
+        }
+    ]
+}
